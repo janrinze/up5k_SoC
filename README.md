@@ -10,6 +10,11 @@ Designed as a demo platform for a small FPGA workshop.
 		1x serial 1000000 8N1 (debug port)
 		16 bit GPIO
 
+# Requirements
+* ICE40UP5K-B-EVN board
+* installation of icestorm tools from https://github.com/cliffordwolf/icestorm
+* 3.3 volt USB to serial cable
+
 # Demo binary installation
 ````
     iceprog binary/simplesoc.bin
