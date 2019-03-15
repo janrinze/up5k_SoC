@@ -59,6 +59,7 @@ Basic starting at 0x003C to 0x7DC6.
 130 V=V+S
 140 GOTO 50
 ````
+Copy the basic text to the serial console to run the program. Escape will stop the basic program. The basic interpreter is crude and slow so don't expect too much from this demo. Also the expression solver does not do precedence yet be sure to write like A+(B*C) to ensure correctness. The basic interpreter has borrowed a lot of ideas from ATOM Basic. So only A..Z are integer variables. No strings yet although PRINT accepts double quote strings.
 
 ## To be released
 simpleSoCcompiler (compiles C/C++ like code)
