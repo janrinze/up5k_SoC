@@ -17,8 +17,7 @@ Designed as a demo platform for a small FPGA workshop.
 
 ## Demo binary installation
 ````
-    iceprog binary/simplesoc.bin
-    iceprog -o 320k binary/demo1.bin
+    iceprog binary/BasicDemo.bin
 ````
 
 ## Connecting a 3.3 volt USB to serial on console
@@ -33,6 +32,32 @@ Designed as a demo platform for a small FPGA workshop.
 	black wire connect to gnd
 	green wire (serial tx) connect to 16A
 	white wire (serial rx) connect to 18A
+````
+
+## Expected serial console output
+````
+Simple SoC
+128KB
+Basic starting at 0x003C to 0x7DC6.
+>
+````
+
+## Blinkie, a test basic program
+````
+10 A=#B002
+20 POKE A,-1
+30 A=#B003
+40 V=0;D=0;E=1
+50 FOR T=0 TO 5
+60 POKE A,D
+70 FOR W=0 TO 16
+80 IF V=W POKE A,E
+90 NEXT
+100 NEXT
+110 IF V<1 S=1
+120 IF V>15 S=-1
+130 V=V+S
+140 GOTO 50
 ````
 
 ## To be released
