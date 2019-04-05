@@ -1,7 +1,8 @@
 # Simple SoC for ICE40UP5K-B-EVN board
 
 Designed as a demo platform for a small FPGA workshop.
-
+![Image of Upduino V2.0 with SDcard]
+(https://github.com/janrinze/up5k_SoC/SDDOS/2019-04-05.jpg)
 ## System
 
 	CPU:	16 bit RISC (12Mhz, ~10 MIPS)
