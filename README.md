@@ -2,7 +2,7 @@
 
 Designed as a demo platform for a small FPGA workshop.
 
-![Image of Upduino V2.0 with SDcard](https://github.com/janrinze/up5k_SoC/SDDOS/2019-04-05.jpg)
+![Image of Upduino V2.0 with SDcard](https://github.com/janrinze/up5k_SoC/blob/SDDOS/2019-04-05.jpg)
 
 ## System
 
